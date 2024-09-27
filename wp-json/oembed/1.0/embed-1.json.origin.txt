@@ -1,3 +1,0 @@
-Uri: https://kikuchi-kagu.jp/wp-json/oembed/1.0/embed?url=https:%2F%2Fkikuchi-kagu.jp%2Fcontact%2F
-File Name: E:\My_work\kikuchi-kagu.jp\wp-json\oembed\1.0\embed-1.json
-Content Type: application/json

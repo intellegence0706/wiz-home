@@ -1,3 +1,0 @@
-Uri: https://kikuchi-kagu.jp/wp-json/
-File Name: E:\My_work\kikuchi-kagu.jp\wp-json\index.htm
-Content Type: application/json

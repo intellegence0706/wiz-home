@@ -39,8 +39,9 @@
 
 .intro_text {
 	margin-top: 20px;
-	line-height: 2.5;
+	line-height: 2;
 	margin-left: auto;
+	font-size: 18px;
 }
 
 .intro_img {
@@ -61,10 +62,7 @@
 	bottom: -25px;
 	width: 100px;
 	height: 100px;
-	background-image: url("../img/cmn/img-wood-small@2x.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+	background-color: #FFF200;
 	z-index: 0;
 }
 
@@ -129,15 +127,17 @@
 
 .feature_intro_text {
 	margin-top: 30px;
+	font-size: 18px;
 }
 
 .feature_cnt {
-	padding-top: 80px;
+	padding-bottom: 120px;
 }
 
 .feature_subsec {
 	padding: 90px 0;
 	border-bottom: 1px solid #BABABA;
+	height: max-content;
 }
 
 .feature_subsec:last-child {
@@ -158,7 +158,7 @@
 	font-size: 15px;
 	display: block;
 	margin-bottom: 15px;
-	color: var(--main-color);
+	color: #FFF200;
 }
 
 .feature_wrap {
@@ -167,6 +167,7 @@
 }
 
 .feature_text {
+	font-size: 18px;
 }
 
 .feature_point {
@@ -221,14 +222,18 @@
 
 .feature_point_text {
 	margin-top: 25px;
+	font-size: 16px;
 }
 
 .feature_img {
 	position: relative;
 	margin-top: 30px;
-	border: 1px solid #E5E5E5;
-	padding: 60px 20px;
 	text-align: center;
+}
+
+.feature_img img {
+	width: 100%;
+	height: auto;
 }
 
 .feature_img figcaption {
@@ -364,6 +369,7 @@
 	}
 
 	.intro_text {
+		font-size: 16px;
 	}
 
 	.intro_img {
@@ -434,6 +440,7 @@
 
 	.feature_intro_text {
 		margin-top: 25px;
+		font-size: 16px;
 	}
 
 	.feature_cnt {
@@ -459,6 +466,8 @@
 	}
 
 	.feature_text {
+		font-size: 16px;
+
 	}
 
 	.feature_point {
@@ -493,7 +502,6 @@
 	}
 
 	.feature_img {
-		padding: 70px 20px 30px;
 	}
 
 	.feature_img figcaption {

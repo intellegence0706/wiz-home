@@ -257,7 +257,7 @@ body {
 .cmnhd_en {
 	font-size: 58px;
 	letter-spacing: 0.15em;
-	color: var(--main-color);
+	color: #000;
 	opacity: 0;
 	transform: translateX(-100px);
 	transition-delay: 0s;
