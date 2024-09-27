@@ -51,7 +51,7 @@
 }
 
 .form_tbl > dl > dt {
-	font-size: 15px;
+	font-size: 18px;
 	width: 25%;
 	font-family: 'Lora', 'A-OTF リュウミン Pr6N', 'リュウミン R-KL', 'Ryumin Regular KL', serif;
 }
@@ -65,7 +65,7 @@
 	padding: 0 10px;
 	display: inline-block;
 	border-radius: 4px;
-	background: #333;
+	background: #ff7878;
 }
 
 .mw_wp_form_confirm .form_tbl > dl > dt.-req:after {

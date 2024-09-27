@@ -265,7 +265,7 @@ body {
 
 .cmnhd_ttl {
 	margin-top: 15px;
-	font-size: 13px;
+	font-size: 18px;
 	opacity: 0;
 	transform: translateX(-100px);
 	transition-delay: 0.1s;
