@@ -1,0 +1,313 @@
+@charset "UTF-8";
+
+.form {
+	padding-bottom: 120px;
+}
+
+.form input[type=text] {
+	width: 100%;
+}
+
+.form input[type=text].-short {
+	max-width: 240px;
+}
+
+.form input[type=checkbox] {
+	vertical-align: middle;
+	margin-left: 0;
+}
+
+.form textarea {
+	width: 100%;
+	min-height: 15em;
+}
+
+.form_text {
+}
+
+.mw_wp_form_input .form_text.-confirm,
+.mw_wp_form_confirm .form_text.-input {
+	display: none;
+}
+
+.form_tbl {
+	margin-top: 40px;
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.form_tbl > dl {
+	display: table-row;
+}
+
+.form_tbl > dl > dt,
+.form_tbl > dl > dd {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 25px;
+	border-bottom: 1px dashed #E5E5E5;
+}
+
+.form_tbl > dl > dt {
+	font-size: 15px;
+	width: 25%;
+	font-family: 'Lora', 'A-OTF リュウミン Pr6N', 'リュウミン R-KL', 'Ryumin Regular KL', serif;
+}
+
+.form_tbl > dl > dt.-req:after {
+	content: "必須";
+	font-family: inital;
+	font-size: 12px;
+	margin-left: 10px;
+	color: #FFF;
+	padding: 0 10px;
+	display: inline-block;
+	border-radius: 4px;
+	background: var(--main-color);
+}
+
+.mw_wp_form_confirm .form_tbl > dl > dt.-req:after {
+	display: none;
+}
+
+.form_tbl > dl > dd {
+}
+
+.form_check {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px 40px;
+}
+
+.form_check label {
+	cursor: pointer;
+}
+
+.form_agree {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.mw_wp_form_confirm .form_agree {
+	display: none;
+}
+
+.form_agree_text {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.form_agree_text a {
+	text-decoration: underline;
+	color: #0E62C4;
+}
+
+.form_agree_text a:hover {
+	text-decoration: none;
+}
+
+.form_agree_check {
+	margin-top: 20px;
+}
+
+.form_agree_check label {
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+.form_btn {
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.form_btn > button {
+	position: relative;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	appearance: none;
+	font-size: 15px;
+	font-family: inherit;
+	border: none;
+	padding: 15px;
+	line-height: 1.5;
+	width: 100%;
+	max-width: 380px;
+	color: #FFF;
+	background: #333;
+	min-height: 64px;
+	cursor: pointer;
+	border: 2px solid #333;
+	transition-property: background, color;
+	transition-duration: .3s;
+}
+
+.form_btn > button:hover {
+	background: #FFF;
+	color: #333;
+}
+
+.form_btn > button:after {
+	font-family: icomoon;
+	content: "\e901";
+	position: absolute;
+	right: 15px;
+	font-size: 15px;
+	top: 50%;
+	margin-top: -0.5em;
+	line-height: 1;
+}
+
+.form_btn > button:hover:after {
+	animation: arrow-r 0.6s cubic-bezier(.25, .1, .25, 1) forwards;
+}
+
+.form_btn > button.-back {
+	background: #bbb;
+	color: #333;
+	border: 2px solid #bbb;
+}
+
+.form_btn > button.-back:hover {
+	background: #ddd;
+}
+
+.form_btn > button.-back:hover:after {
+	animation: arrow-rr 0.6s cubic-bezier(.25, .1, .25, 1) forwards;
+}
+
+.form_btn > button.-back:after {
+	content: "\e900";
+	position: absolute;
+	right: auto;
+	left: 15px;
+}
+
+.mw_wp_form_input .form_btn > button[name="submitBack"],
+.mw_wp_form_input .form_btn > button[name="submit"],
+.mw_wp_form_confirm .form_btn > button[name="submitConfirm"] {
+	display: none;
+}
+
+@media screen and (max-width:1260px) {
+}
+
+@media screen and (min-width:768px) {
+}
+
+@media screen and (max-width:767px) {
+	.form {
+		padding-bottom: 60px;
+	}
+
+	.form input[type=text] {
+	}
+
+	.form input[type=text].-short {
+	}
+
+	.form input[type=checkbox] {
+	}
+
+	.form textarea {
+	}
+
+	.form_text {
+	}
+
+	.form_tbl {
+		display: block;
+		margin-top: 20px;
+	}
+
+	.form_tbl > dl {
+		display: block;
+		padding: 20px 0;
+		border-bottom: 1px dashed #E5E5E5;
+	}
+
+	.form_tbl > dl > dt,
+	.form_tbl > dl > dd {
+		display: block;
+		padding: 0;
+		border-bottom: none;
+	}
+
+	.form_tbl > dl > dt {
+		width: 100%;
+	}
+
+	.form_tbl > dl > dt.-req:after {
+	}
+
+	.form_tbl > dl > dd {
+		margin-top: 10px;
+	}
+
+	.form_check {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.form_check label {
+	}
+
+	.mw_wp_form .horizontal-item + .horizontal-item {
+		margin-left: 0 !important;
+	}
+
+	.form_agree {
+		margin-top: 30px;
+	}
+
+	.form_agree_text {
+	}
+
+	.form_agree_text a {
+	}
+
+	.form_agree_text a:hover {
+	}
+
+	.form_agree_check {
+	}
+
+	.form_agree_check label {
+	}
+
+	.form_btn {
+		margin-top: 40px;
+	}
+
+	.form_btn > button {
+	}
+
+	.form_btn > button:hover {
+	}
+
+	.form_btn > button:after {
+	}
+
+	.form_btn > button:hover:after {
+	}
+
+	.form_btn > button.-back {
+	}
+
+	.form_btn > button.-back:hover {
+	}
+
+	.form_btn > button.-back:hover:after {
+	}
+
+	.form_btn > button.-back:after {
+	}
+
+}

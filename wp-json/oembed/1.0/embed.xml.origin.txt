@@ -1,0 +1,3 @@
+Uri: https://kikuchi-kagu.jp/wp-json/oembed/1.0/embed?url=https:%2F%2Fkikuchi-kagu.jp%2Frecruit%2Fentry%2F&format=xml
+File Name: E:\My_work\kikuchi-kagu.jp\wp-json\oembed\1.0\embed.xml
+Content Type: text/xml

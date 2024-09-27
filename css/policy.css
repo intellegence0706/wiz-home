@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.policy {
+	padding-bottom: 120px;
+}
+
+.policy_sec {
+	margin-top: 2.5em;
+}
+
+.policy_ttl {
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.policy_text {
+	margin: 0.5em 0;
+}
+
+.policy_text a {
+	color: #1AAEE5;
+}
+
+.policy_text a:hover {
+	text-decoration: underline;
+}
+
+@media screen and (max-width:1260px) {
+}
+
+@media screen and (min-width:768px) {
+}
+
+@media screen and (max-width:767px) {
+}

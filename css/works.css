@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+.works {
+	padding-bottom: 50px;
+}
+
+.works_cat {
+	margin-bottom: 60px;
+	padding: 0 50px 40px;
+	border-bottom: 1px solid #BABABA;
+}
+
+.works_cat_list {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.works_cat_list > dt {
+	font-size: 14px;
+	color: #BABABA;
+	margin-right: 10px;
+}
+
+.works_cat_list > dd {
+	font-size: 16px;
+}
+
+.works_cat_list > dd a {
+	display: inline-block;
+	border: 1px solid #E5E5E5;
+	border-radius: 16px;
+	line-height: 32px;
+	height: 32px;
+	padding: 0 12px;
+	transition: color .6s;
+}
+
+.works_cat_list > dd a:hover {
+	color: var(--hover-color);
+	transition: color .3s;
+}
+
+.works_cat_list > dd a:after {
+	font-family: icomoon;
+	content: "\e901";
+	font-size: 12px;
+	margin-left: 0.5em;
+}
+
+.works_list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 60px;
+}
+
+.works_list_item {
+	max-width: 330px;
+}
+
+.works_list_item_wrap {
+}
+
+.works_list_item_img {
+}
+
+.works_list_item_cap {
+	position: relative;
+	padding-right: 60px;
+	margin-top: 15px;
+}
+
+.works_list_item_cap h2 {
+}
+
+.works_list_item_cap p {
+	color: #BABABA;
+}
+
+.works_list_item_cap i {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -20px;
+}
+
+@media screen and (max-width:1260px) {
+}
+
+@media screen and (min-width:768px) {
+}
+
+@media screen and (max-width:767px) {
+	.works {
+		padding-bottom: 20px;
+	}
+
+	.works_cat {
+		padding: 10px 0 20px;
+		margin-bottom: 40px;
+	}
+
+	.works_cat_list {
+		flex-wrap: wrap;
+	}
+
+	.works_cat_list > dt {
+		width: 100%;
+		margin-bottom: 6px;
+	}
+
+	.works_cat_list > dd {
+	}
+
+	.works_cat_list > dd a {
+	}
+
+	.works_cat_list > dd a:hover {
+	}
+
+	.works_cat_list > dd a:after {
+	}
+
+	.works_list {
+		gap: 30px 4%;
+	}
+
+	.works_list_item {
+		width: 48%;
+	}
+
+	.works_list_item_wrap {
+	}
+
+	.works_list_item_img {
+	}
+
+	.works_list_item_img img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.works_list_item_cap {
+		padding-right: 40px;
+		margin-top: 10px;
+		line-height: 1.5;
+	}
+
+	.works_list_item_cap h2 {
+	}
+
+	.works_list_item_cap p {
+	}
+
+	.works_list_item_cap i {
+		width: 30px;
+		height: 30px;
+		margin-top: -15px;
+	}
+
+}

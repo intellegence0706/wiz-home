@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+.job {
+	padding-bottom: 120px;
+}
+
+.job_box {
+	background: #F6F6F6;
+	padding: 100px;
+}
+
+.job_box:first-child {
+	margin-top: 0;
+}
+
+.job_hd {
+}
+
+.job_hd_info {
+}
+
+.job_hd_info span {
+	display: inline-block;
+	color: #FFF;
+	min-width: 110px;
+	padding: 0 15px;
+	text-align: center;
+	background: var(--main-color);
+}
+
+.job_hd_ttl {
+	margin-top: 20px;
+	font-size: 25px;
+	line-height: 1.5;
+	font-feature-settings: "palt";
+}
+
+.job_tbl {
+	display: table;
+	border-top: 1px solid #BABABA;
+	width: 100%;
+	margin-top: 25px;
+}
+
+.job_tbl > dl {
+	display: table-row;
+}
+
+.job_tbl > dl > dt,
+.job_tbl > dl > dd {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 20px;
+	border-bottom: 1px solid #BABABA;
+}
+
+.job_tbl > dl > dt {
+	background: #FFF;
+	width: 160px;
+}
+
+.job_tbl > dl > dd {
+}
+
+.job_entry {
+	margin-top: 40px;
+}
+
+.job_entry_wrap {
+	background: #F6F6F6;
+	padding: 100px;
+}
+
+.job_entry_ttl {
+	font-size: 25px;
+	line-height: 1.5;
+}
+
+.job_entry_btn {
+	text-align: center;
+	margin-top: 60px;
+}
+
+.job_entry_btn > a {
+	display: inline-block;
+	padding: 20px;
+	text-align: center;
+	font-size: 16px;
+	width: 100%;
+	max-width: 450px;
+	color: #FFF;
+	border: 2px solid var(--main-color);
+	background: var(--main-color);
+	transition-property: background, color;
+	transition-duration: .3s;
+}
+
+.job_entry_btn > a:hover {
+	background: #FFF;
+	color: var(--main-color);
+}
+
+@media screen and (max-width:1260px) {
+}
+
+@media screen and (min-width:768px) {
+}
+
+@media screen and (max-width:767px) {
+	.job {
+		padding-bottom: 60px;
+	}
+
+	.job_box {
+		padding: 40px 20px 20px;
+	}
+
+	.job_box:first-child {
+	}
+
+	.job_hd {
+	}
+
+	.job_hd_info {
+	}
+
+	.job_hd_info span {
+		font-size: 12px;
+		min-width: 80px;
+	}
+
+	.job_hd_ttl {
+		margin-top: 15px;
+		font-size: 20px;
+	}
+
+	.job_tbl {
+		margin-top: 15px;
+		display: block;
+		border-top: none;
+	}
+
+	.job_tbl > dl {
+		display: block;
+		border-top: 1px solid #BABABA;
+	}
+
+	.job_tbl > dl > dt,
+	.job_tbl > dl > dd {
+		display: block;
+		border-bottom: none;
+	}
+
+	.job_tbl > dl > dt {
+		width: 100%;
+		text-align: center;
+		padding: 10px;
+	}
+
+	.job_tbl > dl > dd {
+		padding: 15px 0 25px;
+	}
+
+	.job_entry {
+	}
+
+	.job_entry_wrap {
+		padding: 40px 20px 20px;
+	}
+
+	.job_entry_ttl {
+		font-size: 20px;
+	}
+
+	.job_entry_btn {
+		margin-top: 40px;
+	}
+
+	.job_entry_btn > a {
+	}
+
+	.job_entry_btn > a:hover {
+	}
+
+}
