@@ -29,7 +29,7 @@
 }
 
 .tnav_item:hover {
-	border-color: var(--hover-color);
+	border-color: #333;
 }
 
 .tnav_item:before {
@@ -44,7 +44,7 @@
 }
 
 .tnav_item:hover:before {
-	color: var(--hover-color);
+	color: #333;
 }
 
 .tnav_item.-category:before {
@@ -140,7 +140,7 @@
 }
 
 .info_item_wrap:hover:after {
-	background: var(--main-color);
+	background: #000;
 	color: #fff;
 	transform: translateX(20px);
 }

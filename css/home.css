@@ -185,6 +185,7 @@ body.-load .opening img {
 
 .about {
 	margin-top: 15vw;
+	height: max-content;
 }
 
 .about_wrap {

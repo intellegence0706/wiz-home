@@ -23,6 +23,7 @@
 }
 
 .form_text {
+	font-family: "Noto serif JP";
 }
 
 .mw_wp_form_input .form_text.-confirm,
@@ -64,7 +65,7 @@
 	padding: 0 10px;
 	display: inline-block;
 	border-radius: 4px;
-	background: var(--main-color);
+	background: #333;
 }
 
 .mw_wp_form_confirm .form_tbl > dl > dt.-req:after {
